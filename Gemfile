@@ -13,7 +13,7 @@ gem 'coffee-rails', '~> 4.1.0'
 # gem 'therubyracer', platforms: :ruby
 gem 'bootstrap', '~> 4.3.1'
 #Adding gem for bootstrap
-gem 'excon', " >= 0.71.0 "
+gem 'excon', ">= 0.71.0"
 #Adding gem to call API
 
 # Use jquery as the JavaScript library
