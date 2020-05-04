@@ -1,0 +1,45 @@
+
+
+Started GET "/" for ::1 at 2020-05-04 00:16:18 +0530
+
+SyntaxError (/Users/fagunbhavsar/Desktop/GitRepos/travel-planner/app/controllers/travel_controller.rb:42: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/travel_controller.rb:42: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/fagunbhavsar/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.11.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /Users/fagunbhavsar/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.11.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/fagunbhavsar/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.11.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (12.0ms)
+  Rendered /Users/fagunbhavsar/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.11.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (98.6ms)
+  Rendered /Users/fagunbhavsar/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/fagunbhavsar/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/fagunbhavsar/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/fagunbhavsar/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/fagunbhavsar/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (91.2ms)
+  Rendered /Users/fagunbhavsar/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/fagunbhavsar/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/fagunbhavsar/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (194.0ms)
+
+
+Started GET "/" for ::1 at 2020-05-04 00:17:20 +0530
+Processing by TravelController#index as HTML
+  Rendered travel/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 21ms
+
+SyntaxError (/Users/fagunbhavsar/Desktop/GitRepos/travel-planner/app/views/travel/index.html.erb:19: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/fagunbhavsar/Desktop/GitRepos/travel-planner/app/views/travel/index.html.erb:21: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/travel/index.html.erb:19: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/travel/index.html.erb:21: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/fagunbhavsar/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.11.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /Users/fagunbhavsar/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.11.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/fagunbhavsar/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.11.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/fagunbhavsar/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.11.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (86.1ms)
+  Rendered /Users/fagunbhavsar/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/fagunbhavsar/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/fagunbhavsar/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/fagunbhavsar/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/fagunbhavsar/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (88.1ms)
+  Rendered /Users/fagunbhavsar/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/fagunbhavsar/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/fagunbhavsar/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (191.9ms)
