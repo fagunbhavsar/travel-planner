@@ -38,5 +38,5 @@ class TravelController < ApplicationController
           "https://restcountries-v1.p.rapidapi.com/name/#{URI.encode(name)}"
       )
     end
-
+  end
 end
